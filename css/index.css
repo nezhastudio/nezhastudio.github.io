@@ -1,0 +1,113 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.index-header {
+    height: 100%;
+    background-size: cover;
+    background-image: url(../images/showcase_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% top;
+    min-height: 850px;
+}
+
+.index-body {
+    height: 200px;
+}
+
+.index-footer {
+    padding: 20px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #222021;
+    color: #fff;
+    position: relative;
+}
+
+.index-footer img {
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-image: url(../images/case.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.jumbotron h1 {
+    color: #fff;
+}
+
+.header-text {
+    color: #111;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.header-text img {
+    max-height: 300px;
+}
+
+.header-text-inner {
+    max-width: 570px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #111;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 45px;
+}
+
+.header-text h1 span {
+    color: #FF9E22;
+    font-size: 55px;
+}
+
+.header-text p {
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.header-text p span {
+    color: #FF9E22;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.header-text .btn-primary {
+    border: none;
+    padding: 10px 20px;
+    margin-right: 7px;
+    border-radius: 0;
+}
+
+.header-text .btn-primary.btn-header1 {
+    background: #FF9E22;
+    color: #000;
+    text-shadow: none;
+}
+
+.header-text .btn-primary.btn-header2 {
+    background: #000;
+    color: #FF9E22;
+    text-shadow: none;
+}
+
+.header-text .btn-primary.btn-header1:hover,
+.header-text .btn-primary.btn-header2:hover {
+    background: #000;
+    color: #fff;
+}
